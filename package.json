@@ -1,8 +1,8 @@
 {
-  "name": "nodejs-x",
+  "name": "nodejs-xx",
   "version": "1.0.0",
   "description": "node",
-  "author": "eooce",
+  "author": "zhang",
   "license": "MIT",
   "private": false,
   "main": "app.js",
