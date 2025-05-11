@@ -672,7 +672,7 @@ const server = http.createServer((req, res) => {
     } 
     
     if (req.url === `/${SUB_PATH}`) {
-        const vlessURL = `vless://${UUID}@${IP}:443?encryption=none&security=tls&sni=${IP}&fp=chrome&allowInsecure=1&type=xhttp&host=${IP}&path=${SETTINGS.XPATH}&mode=packet-up#${NAME}-${ISP}`; 
+        const vlessURL = `vless://${UUID}@${IP}:443?encryption=none&security=tls&sni=${IP}&fp=chrome&allowInsecure=1&type=xhttp&host=${IP}&path=${SETTINGS.XPATH}&mode=packet-up#${ISP}-${NAME}`; 
         const base64Content = Buffer.from(vlessURL).toString('base64');
         res.writeHead(200, { 'Content-Type': 'text/plain' });
         res.end(base64Content + '\n');
