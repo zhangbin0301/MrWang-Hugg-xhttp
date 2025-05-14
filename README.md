@@ -18,3 +18,12 @@
   | AUTO_ACCESS  | 否 |  false | 自动保活，true开启,false关闭       |
   | SUB_PATH     | 否 |  sub   | 节点订阅路径                      |
   | NAME         | 否 |        | 节点名称                         |
+
+
+*hug新建文件名为：Dockerfile
+*内空如下：
+FROM ghcr.io/zhangbin0301/abcdxhttp:latest
+ENV PORT 7860
+RUN chmod 777 /app
+USER 10014
+*保存即可
