@@ -20,7 +20,7 @@
   | NAME         | 否 |        | 节点名称                         |
 
 
-*hug新建文件名为：Dockerfile
+*HUGG新建文件名为：Dockerfile  只需要添加这一件就行
 
 *内空如下：
 
